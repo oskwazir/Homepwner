@@ -19,6 +19,7 @@
 		B79F018619AC29ED00FF715A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79F016E19AC29ED00FF715A /* UIKit.framework */; };
 		B79F018E19AC29ED00FF715A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B79F018C19AC29ED00FF715A /* InfoPlist.strings */; };
 		B79F019019AC29ED00FF715A /* HomepwnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B79F018F19AC29ED00FF715A /* HomepwnerTests.m */; };
+		B7F32C7519ACDCC000ADF2B8 /* BNRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F32C7419ACDCC000ADF2B8 /* BNRItemsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		B79F018B19AC29ED00FF715A /* HomepwnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomepwnerTests-Info.plist"; sourceTree = "<group>"; };
 		B79F018D19AC29ED00FF715A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B79F018F19AC29ED00FF715A /* HomepwnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepwnerTests.m; sourceTree = "<group>"; };
+		B7F32C7319ACDCC000ADF2B8 /* BNRItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemsViewController.h; sourceTree = "<group>"; };
+		B7F32C7419ACDCC000ADF2B8 /* BNRItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		B79F017019AC29ED00FF715A /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				B7F32C7319ACDCC000ADF2B8 /* BNRItemsViewController.h */,
+				B7F32C7419ACDCC000ADF2B8 /* BNRItemsViewController.m */,
 				B79F017919AC29ED00FF715A /* BNRAppDelegate.h */,
 				B79F017A19AC29ED00FF715A /* BNRAppDelegate.m */,
 				B79F017C19AC29ED00FF715A /* Images.xcassets */,
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F32C7519ACDCC000ADF2B8 /* BNRItemsViewController.m in Sources */,
 				B79F017719AC29ED00FF715A /* main.m in Sources */,
 				B79F017B19AC29ED00FF715A /* BNRAppDelegate.m in Sources */,
 			);
@@ -438,6 +444,7 @@
 				B79F019519AC29ED00FF715A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B79F019619AC29ED00FF715A /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +453,7 @@
 				B79F019819AC29ED00FF715A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
