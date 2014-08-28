@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B757EDF919AF8C9A000D9766 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B757EDF819AF8C9A000D9766 /* BNRItemStore.m */; };
+		B757EDFC19AF8F81000D9766 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B757EDFB19AF8F81000D9766 /* BNRItem.m */; };
 		B79F016B19AC29ED00FF715A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79F016A19AC29ED00FF715A /* Foundation.framework */; };
 		B79F016D19AC29ED00FF715A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79F016C19AC29ED00FF715A /* CoreGraphics.framework */; };
 		B79F016F19AC29ED00FF715A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79F016E19AC29ED00FF715A /* UIKit.framework */; };
@@ -33,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B757EDF719AF8C9A000D9766 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
+		B757EDF819AF8C9A000D9766 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
+		B757EDFA19AF8F81000D9766 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		B757EDFB19AF8F81000D9766 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 		B79F016719AC29ED00FF715A /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79F016A19AC29ED00FF715A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B79F016C19AC29ED00FF715A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -110,8 +116,12 @@
 		B79F017019AC29ED00FF715A /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				B757EDFA19AF8F81000D9766 /* BNRItem.h */,
+				B757EDFB19AF8F81000D9766 /* BNRItem.m */,
 				B7F32C7319ACDCC000ADF2B8 /* BNRItemsViewController.h */,
 				B7F32C7419ACDCC000ADF2B8 /* BNRItemsViewController.m */,
+				B757EDF719AF8C9A000D9766 /* BNRItemStore.h */,
+				B757EDF819AF8C9A000D9766 /* BNRItemStore.m */,
 				B79F017919AC29ED00FF715A /* BNRAppDelegate.h */,
 				B79F017A19AC29ED00FF715A /* BNRAppDelegate.m */,
 				B79F017C19AC29ED00FF715A /* Images.xcassets */,
@@ -245,6 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B757EDF919AF8C9A000D9766 /* BNRItemStore.m in Sources */,
+				B757EDFC19AF8F81000D9766 /* BNRItem.m in Sources */,
 				B7F32C7519ACDCC000ADF2B8 /* BNRItemsViewController.m in Sources */,
 				B79F017719AC29ED00FF715A /* main.m in Sources */,
 				B79F017B19AC29ED00FF715A /* BNRAppDelegate.m in Sources */,
