@@ -7,13 +7,47 @@
 //
 
 #import "BNRItemsViewController.h"
+#import "BNRItem.h"
+#import "BNRItemStore.h"
 
 @implementation BNRItemsViewController
 
 -(instancetype)init{
     //Call the superclass designated initializer
     self = [super initWithStyle:UITableViewStylePlain];
+    
+    if (self) {
+        for(int i = 0;i < 5; i++){
+            [[BNRItemStore sharedStore] createItem];
+        }
+    }
     return self;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView
+numberOfRowsInSection:(NSInteger)section{
+    
+    return [[[BNRItemStore sharedStore] allItems] count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    //Create an instance of UITableViewCell with the default apperance
+    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                                   reuseIdentifier:@"UITableViewCell"];
+    
+    //Set the text on the cell with the description of the item
+    //that is at the nth index of items, where n = row of this cell where it will appear
+    //in the table view
+    
+    NSArray *items = [[BNRItemStore sharedStore] allItems];
+    BNRItem *item = items[indexPath.row];
+    
+    cell.textLabel.text = [item description];
+    
+    return cell;
+
 }
 
 -(instancetype) initWithStyle:(UITableViewStyle)style{
