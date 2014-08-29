@@ -28,17 +28,6 @@
     return sharedStore;
 }
 
--(NSArray *)allItems{
-    return [self.privateItems copy];
-}
-
--(BNRItem *)createItem{
-    BNRItem *randomItem = [BNRItem randomItem];
-    [self.privateItems addObject:randomItem];
-    return randomItem;
-}
-
-
 //Calling init will not work on purpose
 -(instancetype)init{
     [NSException raise:@"Singleton"
@@ -56,7 +45,18 @@
     }
     
     return self;
-
+    
 }
+
+-(NSArray *)allItems{
+    return [self.privateItems copy];
+}
+
+-(BNRItem *)createItem{
+    BNRItem *randomItem = [BNRItem randomItem];
+    [self.privateItems addObject:randomItem];
+    return randomItem;
+}
+
 
 @end
