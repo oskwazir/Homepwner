@@ -11,6 +11,7 @@
 		17BFC2CE19B8143500E6071C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BFC2CD19B8143500E6071C /* Images.xcassets */; };
 		17BFC2DA19B8143500E6071C /* HomepwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFC2D919B8143500E6071C /* HomepwnerTests.swift */; };
 		17BFC2E619B8169E00E6071C /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFC2E519B8169E00E6071C /* ItemsViewController.swift */; };
+		17D6646419B839B700E1A4B7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6646319B839B700E1A4B7 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		17BFC2D819B8143500E6071C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17BFC2D919B8143500E6071C /* HomepwnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerTests.swift; sourceTree = "<group>"; };
 		17BFC2E519B8169E00E6071C /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		17D6646319B839B700E1A4B7 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				17BFC2C619B8143500E6071C /* AppDelegate.swift */,
 				17BFC2E519B8169E00E6071C /* ItemsViewController.swift */,
+				17D6646319B839B700E1A4B7 /* Item.swift */,
 				17BFC2CD19B8143500E6071C /* Images.xcassets */,
 				17BFC2C419B8143500E6071C /* Supporting Files */,
 			);
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17BFC2C719B8143500E6071C /* AppDelegate.swift in Sources */,
+				17D6646419B839B700E1A4B7 /* Item.swift in Sources */,
 				17BFC2E619B8169E00E6071C /* ItemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +386,7 @@
 				17BFC2DF19B8143500E6071C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17BFC2E019B8143500E6071C /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -390,6 +395,7 @@
 				17BFC2E219B8143500E6071C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
