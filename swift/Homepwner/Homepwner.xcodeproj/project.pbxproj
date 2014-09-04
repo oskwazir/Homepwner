@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		17BFC2C719B8143500E6071C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFC2C619B8143500E6071C /* AppDelegate.swift */; };
-		17BFC2C919B8143500E6071C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFC2C819B8143500E6071C /* ViewController.swift */; };
 		17BFC2CE19B8143500E6071C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BFC2CD19B8143500E6071C /* Images.xcassets */; };
 		17BFC2DA19B8143500E6071C /* HomepwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFC2D919B8143500E6071C /* HomepwnerTests.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +26,6 @@
 		17BFC2C119B8143500E6071C /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BFC2C519B8143500E6071C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17BFC2C619B8143500E6071C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17BFC2C819B8143500E6071C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17BFC2CD19B8143500E6071C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		17BFC2D319B8143500E6071C /* HomepwnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomepwnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BFC2D819B8143500E6071C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				17BFC2C619B8143500E6071C /* AppDelegate.swift */,
-				17BFC2C819B8143500E6071C /* ViewController.swift */,
 				17BFC2CD19B8143500E6071C /* Images.xcassets */,
 				17BFC2C419B8143500E6071C /* Supporting Files */,
 			);
@@ -204,7 +201,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17BFC2C919B8143500E6071C /* ViewController.swift in Sources */,
 				17BFC2C719B8143500E6071C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
