@@ -18,6 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
+        let itemsViewController = ItemsViewController()
+        
+        // Place the table view in the window hierarchy
+        self.window!.rootViewController = itemsViewController
+        
         self.window!.backgroundColor = UIColor.whiteColor()
         
         self.window!.makeKeyAndVisible()
