@@ -12,6 +12,7 @@
 		17BFC2DA19B8143500E6071C /* HomepwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFC2D919B8143500E6071C /* HomepwnerTests.swift */; };
 		17BFC2E619B8169E00E6071C /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFC2E519B8169E00E6071C /* ItemsViewController.swift */; };
 		17D6646419B839B700E1A4B7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6646319B839B700E1A4B7 /* Item.swift */; };
+		B7BC386219B8C59A004FD1C1 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC386119B8C59A004FD1C1 /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		17BFC2D919B8143500E6071C /* HomepwnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerTests.swift; sourceTree = "<group>"; };
 		17BFC2E519B8169E00E6071C /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		17D6646319B839B700E1A4B7 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B7BC386119B8C59A004FD1C1 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				17BFC2C619B8143500E6071C /* AppDelegate.swift */,
 				17BFC2E519B8169E00E6071C /* ItemsViewController.swift */,
 				17D6646319B839B700E1A4B7 /* Item.swift */,
+				B7BC386119B8C59A004FD1C1 /* ItemStore.swift */,
 				17BFC2CD19B8143500E6071C /* Images.xcassets */,
 				17BFC2C419B8143500E6071C /* Supporting Files */,
 			);
@@ -209,6 +212,7 @@
 			files = (
 				17BFC2C719B8143500E6071C /* AppDelegate.swift in Sources */,
 				17D6646419B839B700E1A4B7 /* Item.swift in Sources */,
+				B7BC386219B8C59A004FD1C1 /* ItemStore.swift in Sources */,
 				17BFC2E619B8169E00E6071C /* ItemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
