@@ -30,14 +30,21 @@ class ItemsViewController: UITableViewController {
         fatalError("NSCoding not supported")
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Use .self to get the class. It's equivalent to [UITableViewCell class] in Objective-C.
+        self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
+    }
+    
     override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
         return ItemStore.sharedStore.allItems.count
     }
     
     override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
         
-        // create an instance of UITableViewCell with the default appearance
-        let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "UITableViewCell")
+        //Get a new or recycled cell
+        let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("UITableViewCell", forIndexPath: indexPath) as UITableViewCell
         
         //Set the text of the cell with the description of the item
         //that is at the nth index of ItemStore.sharedStore.allitems
