@@ -14,11 +14,16 @@ class Item{
     let itemName:String
     let valueInDollars:Int
     let serialNumber:String
+    let dateCreated: NSDate
+    var description:String {
+    return "\(self.itemName) (\(self.serialNumber)): Worth $\(self.valueInDollars), recorded on \(self.dateCreated)"
+    }
     
     init(name:String,value:Int, serialNumber:String){
         self.itemName = name
         self.valueInDollars = value
         self.serialNumber = serialNumber
+        self.dateCreated = NSDate()
     }
     
     convenience init(name:String){
