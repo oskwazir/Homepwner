@@ -9,8 +9,22 @@
 import UIKit
 
 class ItemsViewController: UITableViewController {
-    // I don't know why but by not overriding any initializer the UITableViewStyle.Plain style
-    // draws to the view by default
-    // I had done this whole thing of overriding initializers and would get an exception when running the app
-    // By having this blank class it works. So obviously I'm missing something about Swift and UITableViewController
+    
+    override init(){
+        super.init(style: UITableViewStyle.Plain)
+    }
+    
+    override init(nibName nibNameOrNil: String!, bundle nibBundleOrNil: NSBundle!) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
+    override convenience init(style: UITableViewStyle) {
+        self.init()
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        fatalError("NSCoding not supported")
+    }
+    
 }
+
