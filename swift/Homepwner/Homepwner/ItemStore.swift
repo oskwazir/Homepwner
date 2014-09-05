@@ -16,7 +16,7 @@ class ItemStore {
     
     private(set) var allItems = [Item]()
     
-    class var sharedInstance : ItemStore {
+    class var sharedStore : ItemStore {
     struct Static {
         
             static let instance : ItemStore = ItemStore()
