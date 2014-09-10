@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B725973C19C0AF6200C08BA4 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B725973B19C0AF6200C08BA4 /* HeaderView.xib */; };
 		B757EDF919AF8C9A000D9766 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B757EDF819AF8C9A000D9766 /* BNRItemStore.m */; };
 		B757EDFC19AF8F81000D9766 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B757EDFB19AF8F81000D9766 /* BNRItem.m */; };
 		B79F016B19AC29ED00FF715A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79F016A19AC29ED00FF715A /* Foundation.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B725973B19C0AF6200C08BA4 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		B757EDF719AF8C9A000D9766 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
 		B757EDF819AF8C9A000D9766 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
 		B757EDFA19AF8F81000D9766 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				B757EDFB19AF8F81000D9766 /* BNRItem.m */,
 				B7F32C7319ACDCC000ADF2B8 /* BNRItemsViewController.h */,
 				B7F32C7419ACDCC000ADF2B8 /* BNRItemsViewController.m */,
+				B725973B19C0AF6200C08BA4 /* HeaderView.xib */,
 				B757EDF719AF8C9A000D9766 /* BNRItemStore.h */,
 				B757EDF819AF8C9A000D9766 /* BNRItemStore.m */,
 				B79F017919AC29ED00FF715A /* BNRAppDelegate.h */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B725973C19C0AF6200C08BA4 /* HeaderView.xib in Resources */,
 				B79F017519AC29ED00FF715A /* InfoPlist.strings in Resources */,
 				B79F017D19AC29ED00FF715A /* Images.xcassets in Resources */,
 			);

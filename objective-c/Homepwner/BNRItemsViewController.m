@@ -10,7 +10,38 @@
 #import "BNRItem.h"
 #import "BNRItemStore.h"
 
+@interface BNRItemsViewController()
+
+@property (nonatomic, strong) IBOutlet UIView *headerView;
+
+@end
+
 @implementation BNRItemsViewController
+
+-(UIView *)headerView{
+    // If the header view has not been loaded yet
+    if (!_headerView){
+        
+        //Load HeaderView.xib
+        //This didn’t based on the code from the book but StackOverflow had an answer
+        //http://stackoverflow.com/questions/10375043/uitableview-wont-display-headerview-xib
+        
+       _headerView = [[[NSBundle mainBundle] loadNibNamed:@"HeaderView"
+                                                    owner:self
+                                                  options:nil] lastObject];
+    
+    }
+    
+    return _headerView;
+}
+
+-(IBAction)addNewItem:(id)sender{
+
+}
+
+-(IBAction)toggleEditingMode:(id)sender{
+
+}
 
 -(instancetype)init{
     //Call the superclass designated initializer
@@ -27,7 +58,12 @@
 -(void)viewDidLoad{
     [super viewDidLoad];
     
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
+    [self.tableView registerClass:[UITableViewCell class]
+           forCellReuseIdentifier:@"UITableViewCell"];
+    
+    UIView *header = self.headerView;
+    [self.tableView setTableHeaderView:header];
+
 }
 
 -(NSInteger)tableView:(UITableView *)tableView
